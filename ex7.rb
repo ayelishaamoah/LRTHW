@@ -1,3 +1,6 @@
+#Printing
+
+#In Ruby the " (double-quote) tells Ruby to replace variables it finds with #{}, but the ' (single-quote) tells Ruby to leave the string alone and ignore any variables inside it.
 puts "Mary had a little lamb."
 puts "Its fleece was white as #{'snow'}."
 puts "And everywhere that Mary went."
