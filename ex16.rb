@@ -7,6 +7,9 @@ puts "If you do want that, hit RETURN."
 $stdin.gets
 
 puts "Opening the file..."
+# The default option for open() is read only mode.
+# Adding 'w' allows you to write to the file.
+# Adding + (e.g r+ or w+) allows you to enterread-write mode
 target = open(filename, 'w')
 
 puts "Truncating the file. Goodbye!"
